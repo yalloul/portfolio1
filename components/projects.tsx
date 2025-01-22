@@ -8,25 +8,19 @@ import Image from "next/image"
 const projects = [
   {
     title: "Gestion des absences",
-    description: "Une application de gestion des absences",
+    description: "Une application de gestion des absences d'une ecole",
     tech: ["Laravel", "mysql"],
     link: "#",
-    image: "/image.png",
+    image: "/image1.png",
   },
   {
-    title: "Project 2",
-    description: "A brief description of Project 2",
-    tech: ["Next.js", "TypeScript", "PostgreSQL"],
-    link: "#",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "VESTA",
+    description: "Site e-commerce de vente en ligne",
+    tech: ["Next.js", "TypeScript"],
+    link: "https://vesta-iota.vercel.app",
+    image: "/image.png?height=200&width=300",
   },
-  {
-    title: "Project 3",
-    description: "A brief description of Project 3",
-    tech: ["Vue.js", "Express", "GraphQL"],
-    link: "#",
-    image: "/placeholder.svg?height=200&width=300",
-  },
+ 
 ]
 
 export default function Projects() {
